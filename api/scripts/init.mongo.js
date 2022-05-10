@@ -7,7 +7,7 @@ const ProdDB = [
     name: 'Blue Shirt',
     category: 'Shirts',
     price: 30,
-    imageURL: 'https://www.shutterstock.com/image-photo/happy-handsome-man-wear-blue-shirt-743634955',
+    imageURL: 'https://image.shutterstock.com/image-photo/happy-handsome-man-wear-blue-600w-743634955.jpg',
   },
 
   {
@@ -15,14 +15,14 @@ const ProdDB = [
     name: 'Blue Denim',
     category: 'Jeans',
     price: 50,
-    imageURL: 'https://www.shutterstock.com/image-photo/blue-jeans-isolated-on-white-96398333',
+    imageURL: 'https://image.shutterstock.com/z/stock-photo-blue-jeans-isolated-on-white-96398333.jpg',
   },
   {
     id: 3,
     name: 'Leather Brown Belt',
     category: 'Accessories',
     price: 50,
-    imageURL: 'https://www.shutterstock.com/image-photo/fastened-fashionable-mens-brown-leather-belt-1038772180',
+    imageURL: 'https://image.shutterstock.com/z/stock-photo-fastened-fashionable-men-s-brown-leather-belt-with-dark-matted-metal-buckle-isolated-on-white-1038772180.jpg',
   },
 
 

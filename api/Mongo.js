@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
-const url = process.env.DB_URL || 'mongodb+srv://Lakshmi:user@cluster0.chhn3.mongodb.net/MyFirstDB?retryWrites=true';
+const url = process.env.DB_URL || 'mongodb+srv://rutu:California@2506@cluster0.sd1qg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 let db;
 async function connectToDb() {
     const client = new MongoClient(url, { useNewUrlParser: true });
