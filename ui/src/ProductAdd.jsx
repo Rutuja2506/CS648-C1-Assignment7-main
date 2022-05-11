@@ -14,13 +14,13 @@ export default class ProductAdd extends React.Component {
       const form = document.forms.productAdd;
       const product = {
       // eslint-disable-next-line max-len
-        name: form.name.value, price: form.price.value, category: form.category.value, imageURL: form.imageURL.value,
+        name: form.name.value, price: form.price.value?form.price.value.substring(1):"", category: form.category.value, imageURL: form.imageURL.value,
       };
       // eslint-disable-next-line react/destructuring-assignment
       const { createProduct } = this.props;
       createProduct(product);
       form.name.value = '';
-      form.price.value = '';
+      form.price.value = '$';
       form.category.value = '';
       form.imageURL.value = '';
     }
@@ -39,7 +39,7 @@ export default class ProductAdd extends React.Component {
               <FormGroup>
                 <ControlLabel>Price</ControlLabel>
                 {' '}
-                <FormControl type="text" name="price" />
+                <FormControl type="text" name="price" defaultValue="$"/>
               </FormGroup>
 
               <FormGroup>
